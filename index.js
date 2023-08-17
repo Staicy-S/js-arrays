@@ -27,4 +27,12 @@ const products = [
   },
 ];
 
+products.length; // gibt die Länge des arrays
+
 console.log(products[1].price);
+
+products[10] = { name: "book", price: 15 };
+console.log(products);
+
+// adds element to last position
+products[products.length] = { name: "bottle", price: "20" };
